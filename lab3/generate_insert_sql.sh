@@ -1,0 +1,9 @@
+shp2pgsql -s 4326 ./shapefiles/T2018_KAR_BUILDINGS lab3.buildings_2018 > ./insert_data/insert_t2018_buildings.sql
+shp2pgsql -s 4326 ./shapefiles/T2019_KAR_BUILDINGS lab3.buildings_2019 > ./insert_data/insert_t2019_buildings.sql
+shp2pgsql -s 4326 ./shapefiles/T2019_KAR_BUILDINGS lab3.buildings_2019 > ./insert_data/insert_t2019_buildings.sql
+shp2pgsql -s 4326 ./shapefiles/T2019_KAR_POI_TABLE lab3.poi_2019 > ./insert_data/insert_t2019_poi.sql
+shp2pgsql -s 4326 ./shapefiles/T2019_KAR_STREETS lab3.streets_reprojected > ./insert_data/insert_t2019_streets.sql
+shp2pgsql -s 4326 ./shapefiles/T2019_KAR_STREET_NODE lab3.street_nodes_2019 > ./insert_data/insert_t2019_street_nodes.sql
+shp2pgsql -s 4326 ./shapefiles/T2019_KAR_LAND_USE_A lab3.land_use_a_2019 > ./insert_data/insert_t2019_land_use_a.sql
+shp2pgsql -s 4326 ./shapefiles/T2019_KAR_RAILWAYS lab3.railways_2019 > ./insert_data/insert_t2019_railways.sql
+shp2pgsql -s 4326 ./shapefiles/T2019_KAR_WATER_LINES lab3.waterlines_2019 > ./insert_data/insert_t2019_waterlines.sql
